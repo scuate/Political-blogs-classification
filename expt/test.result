@@ -1,0 +1,23 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 6440 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Training Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.9996894409937889
+    label   0   1  |total
+  0  left 3184   .  |3184
+  1 right   2 3254  |3256
+
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy= 0.9996894409937889
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.9602977667493796
+    label   0   1  |total
+  0  left 386  13  |399
+  1 right  19 388  |407
+
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy= 0.9602977667493796
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. train accuracy mean = 0.9996894409937889 stddev = 0.0 stderr = 0.0
+Summary. test accuracy mean = 0.9602977667493796 stddev = 0.0 stderr = 0.0
