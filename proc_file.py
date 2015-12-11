@@ -140,11 +140,11 @@ def writeFile(label,outfname,inp):
 ## create_vectors.py calls this function to process each file under a dir
 def procFile(paramLst,infile,label,outfile):
     if paramLst[3] == 1: ##get the dict for F4
-        partyMember = partyMembers('congress','candidates').getDict()
+        partyMember = partyMembers('data/congress','data/candidates').getDict()
     else:
         partyMember = None
     if paramLst[4] == 1: ##get the dict for F5
-        partyKeyword = partyKeywords('keywords').getDict()
+        partyKeyword = partyKeywords('data/keywords').getDict()
     else:
         partyKeyword = None
     inp = crtFeature(paramLst,infile,partyMember,partyKeyword)
